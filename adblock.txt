@@ -1,0 +1,98 @@
+[Adblock Plus 1.2]
+
+! google ads
+||google-analytics.com
+||pagead2.googlesyndication.com
+||googleads.g.doubleclick.net
+||partner.googleadservices.com/gampad/
+google.com##a[href^="https://www.google.com/adsense/"]
+groups.google.com###google_ads_site
+
+! sohu ads
+||images.sohu.com/cs/jsfile/js/
+||inte.sogou.com/
+
+! alibaba ads
+||a.alimama.cn/
+
+! baidu ads
+||hm.baidu.com/
+
+! some ads
+||web2.51.la/
+||js.user.51.la/
+||www.51.la/
+||jiathis.com/code/
+||js.tongji.linezing.com/
+
+!youku ads
+||atm.youku.com
+||*.atm.youku.com
+||lstat.youku.com
+||*.lstat.youku.com
+||stat.youku.com
+
+! acfun ads
+||adultfriendfinder.com
+||www.u17.com/z/mylife/acfun/tcacfun_index.js
+||124.228.254.229/upload/
+||204.45.91.77/ad
+
+! stage1st
+img.saraba1st.com##div[class^="tac"] 
+http://img.saraba1st.com/attachments/upload/*.jpg$domain=saraba1st.com
+
+||i.na7.cc/
+||code.xwadv.com/a/wmsj/
+
+! 6park bbs
+||bbs.6park.com/bbs/topimg.js*
+||bbs.6park.com/bbs/downimg.js*
+||bbs.6park.com/parks/postan.js*
+||am.6park.com/*
+||ysm.hauchi.com.tw/YSMAD/
+bbs.6park.com##a[href^="http://web.6park.com/bid/"]
+bbs.6park.com##table[width="100%"][bgcolor="#EEEEEE"][class='dc_bar']
+bbs.6park.com###parkbo
+||img.popo8.com/*
+
+! bt factory
+||http://mi.12bt.info/p2p/*/ad1.js
+||http://mi.12bt.info/p2p/*/ad2.js
+||http://mi.12bt.info/*.gif
+mi.12bt.info###qqaddiv
+mi.12bt.info##a[href^="http://ad."]
+mi.12bt.info##table[height="55"]
+
+! chinaunix ads
+||pub.chinaunix.net/data/js/kejikuaibao.js
+||bbs1.chinaunix.net/uc_server/
+||stat.it168.com/count.ashx
+||count.chinaunix.net/iframe.php
+###ad_text
+bbs.chinaunix.net##.maintable>center
+bbs.chinaunix.net##td[class="postcontent postbottom"]
+
+! newsmth ads
+||fair.sogou.com/cpc_ads*
+||newsmth.net/guangg/
+
+! iteye ads
+||static.zongheng.com/v2_0/*
+||dl.iteye.com/upload/picture/pic/
+||alphagodaddy.com/hosting_ads/
+||iteye.com/*/banner
+www.iteye.com###gg
+
+! sanguosha.com ads
+web.sanguosha.com##td[valign="middle"][align="center"]
+
+! wenku8.cn
+||wenku8.cn/configs/article/indextop.js
+||wenku8.cn/configs/article/indexbottom.js
+
+! other ads
+||hzbafp.allyes.com/main/adfshow
+||www.mygeek.cn/pic/*.gif
+||code.xwadv.com/a/wmsj/
+||www.appinn.com##.ads
