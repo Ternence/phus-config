@@ -1,4 +1,3 @@
-
 " An example for a vimrc file.
 "
 " Maintainer: a18ccms <a18ccms@gmail.com>
